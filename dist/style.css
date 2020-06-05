@@ -3,6 +3,21 @@
   color: black;
   background-color: white;
 }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+main {
+  position: relative;
+  padding-bottom: 30px;
+  min-height: 100%;
+  overflow: auto;
+}
 
 .header-container {
   position: relative;
@@ -253,9 +268,77 @@ a:visit {
   color: #609;
 }
 
-.google-links {
-  background: url(/images/nav_logo299_hr.png) no-repeat;
-  background-position: -24px 0;
-  background-size: 167px;
-  width: 28px;
+#pages-nav {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+}
+
+#google-g {
+  width: 30px;
+  height: 30px;
+  padding: 0 0 15px 0;
+}
+
+#google-gle {
+  width: 35px;
+  height: 28px;
+}
+
+.red-o,
+.yellow-o {
+  width: 15px;
+  height: 15px;
+}
+
+td {
+  text-align: center;
+  width: 10px;
+}
+
+.page-links {
+  line-height: 12px;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f2f2f2;
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+  height: 10vh;
+  border-top: 1px solid #b3b1af;
+}
+
+.footer-top-container,
+.footer-top,
+.footer-bottom,
+.footer-bottom-container {
+  background-color: #f2f2f2;
+  margin: 0 0 0 60px;
+}
+
+.foot-item-1,
+.footer-left,
+.footer-right,
+.foot-item-2 {
+  background-color: #f2f2f2;
+}
+
+.foot-item-1 {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.66);
+  margin-top: 5px;
+}
+
+.footer-hr {
+  border: 1px solid #e4e4e4;
+}
+
+.foot-item-2 {
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.66);
 }
